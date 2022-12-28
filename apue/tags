@@ -1,0 +1,122 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yangpeng/apue/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ARRAY_SIZE	qqq.c	/^#define ARRAY_SIZE(/;"	d	file:
+BACKLOG	socket_server_thread.c	/^#define BACKLOG /;"	d	file:
+MAX_EVENTS	qqq.c	/^#define MAX_EVENTS /;"	d	file:
+MSG_STR	naned_client.c	/^#define MSG_STR /;"	d	file:
+SOCKET_PATH	named_socket.c	/^#define  SOCKET_PATH /;"	d	file:
+SOCKET_PATH	naned_client.c	/^#define SOCKET_PATH /;"	d	file:
+THREAD_BODY	socket_server_thread.c	/^typedef  void *(THREAD_BODY)  (void *thread_arg);$/;"	t	typeref:typename:void * ()(void * thread_arg)	file:
+buf	epoll_server.c	/^      char                           buf[1024];     $/;"	l	function:main	typeref:typename:char[1024]	file:
+buf	named_socket.c	/^      char                  buf[1024];$/;"	l	function:main	typeref:typename:char[1024]	file:
+buf	naned_client.c	/^      char buf[1024];$/;"	l	function:main	typeref:typename:char[1024]	file:
+buf	qqq.c	/^ char buf[1024];$/;"	l	function:main	typeref:typename:char[1024]	file:
+buf	socket_server_thread.c	/^     char  buf[1024];$/;"	l	function:thread_worker	typeref:typename:char[1024]	file:
+ch	socket_server_thread.c	/^     int                  ch;$/;"	l	function:main	typeref:typename:int	file:
+cli_addr	named_socket.c	/^      struct sockaddr_un    cli_addr; $/;"	l	function:main	typeref:struct:sockaddr_un	file:
+cli_addr	socket_server_thread.c	/^     struct sockaddr_in   cli_addr;$/;"	l	function:main	typeref:struct:sockaddr_in	file:
+cliaddr_len	named_socket.c	/^      socklen_t             cliaddr_len;$/;"	l	function:main	typeref:typename:socklen_t	file:
+cliaddr_len	socket_server_thread.c	/^     socklen_t            cliaddr_len=0;$/;"	l	function:main	typeref:typename:socklen_t	file:
+client_fd	named_socket.c	/^      int                   listen_fd,client_fd=-1;$/;"	l	function:main	typeref:typename:int	file:
+client_fd	socket_server_thread.c	/^     int                  listen_fd,client_fd=-1;$/;"	l	function:main	typeref:typename:int	file:
+client_fd	socket_server_thread.c	/^     int   client_fd;$/;"	l	function:thread_worker	typeref:typename:int	file:
+conn_fd	naned_client.c	/^      int conn_fd = -1;$/;"	l	function:main	typeref:typename:int	file:
+connfd	epoll_server.c	/^      int                            listenfd, connfd;$/;"	l	function:main	typeref:typename:int	file:
+connfd	qqq.c	/^ int listenfd, connfd;$/;"	l	function:main	typeref:typename:int	file:
+ctx	thread_lock.c	/^       worker_ctx_t *ctx = (worker_ctx_t *)args;$/;"	l	function:thread_worker2	typeref:typename:worker_ctx_t *	file:
+ctx	thread_lock.c	/^      worker_ctx_t  *ctx=(worker_ctx_t *)args;$/;"	l	function:thread_worker1	typeref:typename:worker_ctx_t *	file:
+daemon_run	epoll_server.c	/^      int                            daemon_run = 0;$/;"	l	function:main	typeref:typename:int	file:
+daemon_run	qqq.c	/^ int daemon_run = 0;$/;"	l	function:main	typeref:typename:int	file:
+direntp	dir.c	/^  struct dirent *direntp; $/;"	l	function:main	typeref:struct:dirent *	file:
+dirp	dir.c	/^  DIR           *dirp;$/;"	l	function:main	typeref:typename:DIR *	file:
+epollfd	epoll_server.c	/^      int                            epollfd;$/;"	l	function:main	typeref:typename:int	file:
+epollfd	qqq.c	/^ int epollfd;$/;"	l	function:main	typeref:typename:int	file:
+event	epoll_server.c	/^      struct epoll_event             event;$/;"	l	function:main	typeref:struct:epoll_event	file:
+event	qqq.c	/^ struct epoll_event event;$/;"	l	function:main	typeref:struct:epoll_event	file:
+event_array	epoll_server.c	/^      struct epoll_event             event_array[max_events];$/;"	l	function:main	typeref:struct:epoll_event[]	file:
+event_array	qqq.c	/^ struct epoll_event event_array[MAX_EVENTS];$/;"	l	function:main	typeref:struct:epoll_event[]	file:
+events	epoll_server.c	/^      int                            events;$/;"	l	function:main	typeref:typename:int	file:
+events	qqq.c	/^ int events;$/;"	l	function:main	typeref:typename:int	file:
+fd1	dir.c	/^  int           fd1;$/;"	l	function:main	typeref:typename:int	file:
+fd2	dir.c	/^  int           fd2;$/;"	l	function:main	typeref:typename:int	file:
+found	epoll_server.c	/^      int                            found;$/;"	l	function:main	typeref:typename:int	file:
+found	qqq.c	/^ int found;$/;"	l	function:main	typeref:typename:int	file:
+i	epoll_server.c	/^      int                            i, j;$/;"	l	function:main	typeref:typename:int	file:
+i	qqq.c	/^ int i, j;$/;"	l	function:main	typeref:typename:int	file:
+i	socket_server_thread.c	/^     int   i;$/;"	l	function:thread_worker	typeref:typename:int	file:
+j	epoll_server.c	/^      int                            i, j;$/;"	l	function:main	typeref:typename:int	file:
+j	qqq.c	/^ int i, j;$/;"	l	function:main	typeref:typename:int	file:
+limit	epoll_server.c	/^        struct rlimit limit = {0};$/;"	l	function:set_socket_rlimit	typeref:struct:rlimit	file:
+limit	qqq.c	/^ struct rlimit limit = {0};$/;"	l	function:set_socket_rlimit	typeref:struct:rlimit	file:
+listen_fd	named_socket.c	/^      int                   listen_fd,client_fd=-1;$/;"	l	function:main	typeref:typename:int	file:
+listen_fd	socket_server_thread.c	/^     int                  listen_fd,client_fd=-1;$/;"	l	function:main	typeref:typename:int	file:
+listen_port	socket_server_thread.c	/^     int                  listen_port=0;$/;"	l	function:main	typeref:typename:int	file:
+listenfd	epoll_server.c	/^       int listenfd;$/;"	l	function:socket_server_init	typeref:typename:int	file:
+listenfd	epoll_server.c	/^      int                            listenfd, connfd;$/;"	l	function:main	typeref:typename:int	file:
+listenfd	qqq.c	/^ int listenfd, connfd;$/;"	l	function:main	typeref:typename:int	file:
+listenfd	qqq.c	/^ int listenfd;$/;"	l	function:socket_server_init	typeref:typename:int	file:
+lock	thread_lock.c	/^      pthread_mutex_t  lock;$/;"	m	struct:worker_ctx_s	typeref:typename:pthread_mutex_t	file:
+long_options	epoll_server.c	/^      struct option                  long_options[] =$/;"	l	function:main	typeref:struct:option[]	file:
+long_options	qqq.c	/^ struct option long_options[] =$/;"	l	function:main	typeref:struct:option[]	file:
+main	dir.c	/^int main(int argc,char **argv)$/;"	f	typeref:typename:int
+main	epoll_server.c	/^int main(int argc,char *argv[])$/;"	f	typeref:typename:int
+main	named_socket.c	/^int main(int argc,char *argv[])$/;"	f	typeref:typename:int
+main	naned_client.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	qqq.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	socket_server_thread.c	/^int main(int argc,char *argv[])$/;"	f	typeref:typename:int
+main	thread_lock.c	/^int main(int argc,char *argv[])$/;"	f	typeref:typename:int
+max_events	epoll_server.c	/^#define  max_events /;"	d	file:
+on	epoll_server.c	/^       int on = 1;$/;"	l	function:socket_server_init	typeref:typename:int	file:
+on	qqq.c	/^ int on = 1;$/;"	l	function:socket_server_init	typeref:typename:int	file:
+on	socket_server_thread.c	/^     int                  on=1;$/;"	l	function:main	typeref:typename:int	file:
+opt	epoll_server.c	/^      int                            opt;$/;"	l	function:main	typeref:typename:int	file:
+opt	qqq.c	/^ int opt;$/;"	l	function:main	typeref:typename:int	file:
+opts	socket_server_thread.c	/^     struct option       opts[]={$/;"	l	function:main	typeref:struct:option[]	file:
+print_usage	epoll_server.c	/^static inline void print_usage(char *progname)$/;"	f	typeref:typename:void	file:
+print_usage	qqq.c	/^static inline void print_usage(char *progname)$/;"	f	typeref:typename:void	file:
+print_usage	socket_server_thread.c	/^void print_usage(char*progname)$/;"	f	typeref:typename:void
+progname	epoll_server.c	/^      char                          *progname = NULL;$/;"	l	function:main	typeref:typename:char *	file:
+progname	qqq.c	/^ char *progname = NULL;$/;"	l	function:main	typeref:typename:char *	file:
+rv	dir.c	/^  int           rv;$/;"	l	function:main	typeref:typename:int	file:
+rv	epoll_server.c	/^       int rv = 0;$/;"	l	function:socket_server_init	typeref:typename:int	file:
+rv	epoll_server.c	/^      int                            rv;$/;"	l	function:main	typeref:typename:int	file:
+rv	named_socket.c	/^      int                   rv=-1;$/;"	l	function:main	typeref:typename:int	file:
+rv	naned_client.c	/^      int rv = -1;$/;"	l	function:main	typeref:typename:int	file:
+rv	qqq.c	/^ int rv = 0;$/;"	l	function:socket_server_init	typeref:typename:int	file:
+rv	qqq.c	/^ int rv;$/;"	l	function:main	typeref:typename:int	file:
+rv	socket_server_thread.c	/^     int                  rv=-1;$/;"	l	function:main	typeref:typename:int	file:
+rv	socket_server_thread.c	/^     int             rv=-1;$/;"	l	function:thread_start	typeref:typename:int	file:
+rv	socket_server_thread.c	/^     int   rv;$/;"	l	function:thread_worker	typeref:typename:int	file:
+serv_addr	named_socket.c	/^      struct sockaddr_un    serv_addr;$/;"	l	function:main	typeref:struct:sockaddr_un	file:
+serv_addr	naned_client.c	/^      struct sockaddr_un serv_addr;$/;"	l	function:main	typeref:struct:sockaddr_un	file:
+serv_addr	socket_server_thread.c	/^     struct sockaddr_in   serv_addr;$/;"	l	function:main	typeref:struct:sockaddr_in	file:
+serv_port	epoll_server.c	/^      int                            serv_port = 0;$/;"	l	function:main	typeref:typename:int	file:
+serv_port	qqq.c	/^ int serv_port = 0;$/;"	l	function:main	typeref:typename:int	file:
+servaddr	epoll_server.c	/^       struct sockaddr_in servaddr;$/;"	l	function:socket_server_init	typeref:struct:sockaddr_in	file:
+servaddr	qqq.c	/^ struct sockaddr_in servaddr;$/;"	l	function:socket_server_init	typeref:struct:sockaddr_in	file:
+set_socket_rlimit	epoll_server.c	/^void set_socket_rlimit(void)$/;"	f	typeref:typename:void
+set_socket_rlimit	qqq.c	/^void set_socket_rlimit(void)$/;"	f	typeref:typename:void
+shared_var	thread_lock.c	/^      int              shared_var;$/;"	m	struct:worker_ctx_s	typeref:typename:int	file:
+socket_server_init	epoll_server.c	/^int socket_server_init(char *listen_ip, int listen_port)$/;"	f	typeref:typename:int
+socket_server_init	qqq.c	/^int socket_server_init(char *listen_ip, int listen_port)$/;"	f	typeref:typename:int
+test_dir	dir.c	/^#define test_dir /;"	d	file:
+thread_attr	socket_server_thread.c	/^     pthread_attr_t  thread_attr;$/;"	l	function:thread_start	typeref:typename:pthread_attr_t	file:
+thread_attr	thread_lock.c	/^      pthread_attr_t  thread_attr;$/;"	l	function:main	typeref:typename:pthread_attr_t	file:
+thread_start	socket_server_thread.c	/^thread_start(pthread_t * thread_id,THREAD_BODY * thread_workbody, void *thread_arg)$/;"	f
+thread_worker	socket_server_thread.c	/^void *thread_worker(void *ctx)$/;"	f	typeref:typename:void *
+thread_worker1	thread_lock.c	/^void *thread_worker1(void *args)$/;"	f	typeref:typename:void *
+thread_worker2	thread_lock.c	/^void *thread_worker2(void *args)$/;"	f	typeref:typename:void *
+tid	socket_server_thread.c	/^     pthread_t            tid;$/;"	l	function:main	typeref:typename:pthread_t	file:
+tid	thread_lock.c	/^      pthread_t       tid;$/;"	l	function:main	typeref:typename:pthread_t	file:
+worker_ctx	thread_lock.c	/^      worker_ctx_t    worker_ctx;$/;"	l	function:main	typeref:typename:worker_ctx_t	file:
+worker_ctx_s	thread_lock.c	/^typedef struct worker_ctx_s$/;"	s	file:
+worker_ctx_t	thread_lock.c	/^}worker_ctx_t;$/;"	t	typeref:struct:worker_ctx_s	file:
